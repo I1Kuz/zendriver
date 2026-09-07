@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Fixed `404 Not Found` WebSocket connection error for `iframe` targets by routing all target connections to `/devtools/page/<target_id>` in `Browser._handle_target_update`.
+
 ### Added
 
 ### Changed
